@@ -48,3 +48,34 @@ body {
     flex-direction: column;
     justify-content: center;
 }
+
+.github {
+    color: white;
+    border-color: #2b2d2f;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.mastodon {
+    color: white;
+    border-color: #6364f6;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.email {
+    color: white;
+    border-color: #afafaf;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.contact {
+    margin-top: 4px;
+}
+
+/* 
+#draggable {
+    position: absolute;
+    cursor: move;
+} */
