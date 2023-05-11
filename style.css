@@ -65,6 +65,13 @@ body {
     border-radius: 5px;
 }
 
+.gitlab {
+  color: white;
+  border-color: #d85b37;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
 .mastodon {
     color: white;
     border-color: #6364f6;
@@ -119,8 +126,3 @@ body {
     margin-bottom: 256px;
   }
   
-/* 
-#draggable {
-    position: absolute;
-    cursor: move;
-} */

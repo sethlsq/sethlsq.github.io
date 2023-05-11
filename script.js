@@ -6,34 +6,17 @@ function redirectTo(url) {
   window.location.href = url;
 }
   
+  
+window.onload = function() {
+    const button1 = document.querySelector("#button1");
+    const button2 = document.querySelector("#button2");
+    const content = document.querySelector("#content");
 
-// window dragging
-// window.addEventListener("DOMContentLoaded", function() {
-//     // your code here
-//     var draggableElement = document.getElementById("draggable");
-//     var offsetX = 0;
-//     var offsetY = 0;
-//     var isDragging = false;
-  
-//     draggableElement.addEventListener("mousedown", function(e) {
-//       offsetX = e.clientX - draggableElement.offsetLeft;
-//       offsetY = e.clientY - draggableElement.offsetTop;
-//       isDragging = true;
-//       draggableElement.style.cursor = "grabbing";
-//     });
-  
-//     document.addEventListener("mousemove", function(e) {
-//       if (isDragging) {
-//         var x = e.clientX - offsetX;
-//         var y = e.clientY - offsetY;
-//         draggableElement.style.left = x + "px";
-//         draggableElement.style.top = y + "px";
-//       }
-//     });
-  
-//     document.addEventListener("mouseup", function() {
-//       isDragging = false;
-//       draggableElement.style.cursor = "move";
-//     });
-//   });
-  
+    button1.addEventListener("click", function() {
+    content.innerHTML = "<p>You clicked Button 1!</p>";
+    });
+
+    button2.addEventListener("click", function() {
+    content.innerHTML = "<p>You clicked Button 2!</p>";
+    });
+  }
